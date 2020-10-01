@@ -172,4 +172,8 @@ function reset() {
   if (score > localStorage["Highscore"]) {
     localStorage["Highscore"] = score;
   }
+  
+  //reset scores
+  ST = 0;
+  score = 0;
 }
